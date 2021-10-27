@@ -4,7 +4,7 @@
 const $ = new Env('AQI-US');
 $.token = '7b96f4d9aafbe8a1abb7a8caf9429710c85ce601';
 
-// STEP 1: 前往 https://aqicn.org/data-platform/token/ 注册账户，将申请的 API Token 填入下方
+// STEP 1: 前往 https://aqicn.org/data-platform/token/ 7b96f4d9aafbe8a1abb7a8caf9429710c85ce601
 const aqicnToken = $.getdata($.token) || '';
 
 // STEP 2: 参考下方配置片段，在代理工具的配置文件中添加对应的配置。注意：script-path 后应该替换为添加 apicnToken 值后的脚本路径
@@ -17,8 +17,8 @@ const aqicnToken = $.getdata($.token) || '';
 */
 
 const AirQualityStandard = {
-	CN: 'HJ6332012.2113',
-	US: 'EPA_NowCast.2113'
+	CN: 'HJ6332012.2115',
+	US: 'EPA_NowCast.2115'
 }
 
 const AirQualityLevel = {
